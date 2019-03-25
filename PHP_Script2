@@ -1,0 +1,22 @@
+<?php
+function sum($x, $y) {
+	return $x + $y;
+}
+
+function sub($x, $y) {
+	return $x - $y;
+}
+
+function mul($x, $y) {
+	return $x * $y;
+}
+
+function div($x, $y) {
+	return $x / $y;
+}
+
+echo sum(5, 7);
+echo sub(5, 7);
+echo mul(5, 7);
+echo div(5, 7);
+?>
