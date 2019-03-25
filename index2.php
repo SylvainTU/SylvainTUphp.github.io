@@ -8,7 +8,7 @@ $b = $_GET["y"];
 function sum($x, $y) {
 	return $x + $y;
 }
-echo "$a+$b= ";
+echo "$a+$b=";
 echo sum($a, $b);
 ?>
 </body>
